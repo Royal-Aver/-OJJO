@@ -1,19 +1,18 @@
 .header {
-	// position: absolute;
+	position: absolute;
+	left: 0;
+	right: 0;
 }
 .container {
 	max-width: 1110px;
 	margin: 0 auto;
 }
 .header__inner {
-	font-family: 'Gilroy Regular';
+	font-family: "Gilroy Regular";
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background: #000;
 	padding-top: 25px;
-}
-.header__menu {
 }
 .header__list {
 	display: flex;
@@ -23,7 +22,7 @@
 .header__list-item {
 	line-height: 150%;
 }
-.header__list-item+.header__list-item {
+.header__list-item + .header__list-item {
 	margin-left: 40px;
 }
 .header__list-link {
@@ -44,11 +43,7 @@
 	line-height: 2;
 }
 .header__check {
-	color: #FFF;
+	color: #fff;
 	line-height: 150%;
 	margin-right: 44px;
-}
-.header__user {
-}
-.header__like {
 }
